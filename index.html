@@ -1,5 +1,25 @@
 <html>
-<body valign="middle">
-<center>hi</center>
+<head>
+<title>
+Kelly Jeanne Bell
+</title>
+<link rel=stylesheet href="css/index.css" type="text/css"/>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+	$(function() {
+		$("#hi").fadeIn(600, function() {
+      $("#something").fadeIn(600, function() {
+        $("#meantime").fadeIn(600);
+      });
+    });
+	});
+//]]>
+</script>
+</head>
+<body>
+<span id="hi">This is <a href="https://www.facebook.com/kellyjeannebell">Kelly</a>'s site.</span><br/>
+<span id="something">Something should be here eventually.</span><br/>
+<span id="meantime">In the meantime, there's always <a href="http://intrical.us">Intrical</a>.</span>
 </body>
 </html>
